@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+section {
+  border: 1px solid gray;
+  width: 70%;
+  min-height: 300px;
+  margin: 10px auto;
+  padding: 1%;
+}
+
+section div {
+  width: 30%;
+  margin: 5px;
+
+}
+
+.blue {
+  background-color: #2d5dcc;
+}
+
+.pink {
+   background-color: #d957d9;
+}
+
+.mint {
+  background-color: #4fe0b0;
+}
+
+.beige {
+   background-color: #efd9ca;
+}
+
+.blue, .pink, .mint, .beige, .font div {
+  display: inline-block;
+  color: #FFFF;
+  text-align: center;
+}
+
+.font div {
+  min-height: 10px;
+}
+
+.font div:last-of-type{
+  display: block;
+}
+.font div h2 {
+  color: #000;
+
+  text-decoration: underline;
+}
+
+.comic, .style_comic {
+  font-family: 'Comic Neue';
+}
+
+.roboto {
+  font-family: roboto;
+}
+
+.lato, .style_lato, .para {
+  font-family: lato;
+}
+
+p{
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.style_comic h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.style_lato h2 {
+  font-weight: 500;
+  font-size:  18px;
+}
+
+.para  p {
+  font-weight: 700;
+  font-size: 14px;
+}
